@@ -1,4 +1,5 @@
 import Features from "@/components/Features";
+import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Products from "@/components/Products";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Services />
       <Pricing />
       <Products />
+      <Gallery />
     </main>
   );
 };
